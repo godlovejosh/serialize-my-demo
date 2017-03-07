@@ -1,7 +1,7 @@
-package com.esotericsoftware.kryo.serialize;
+package com.caucho.hessian.serialize;
 
 /**
- *
+ * 
  * 序列化和反序列化接口
  *
  */
@@ -20,5 +20,5 @@ public interface ISerializer<T> {
 	 * @return
 	 */
 	T unserialize(byte[] b);
-
+	
 }
